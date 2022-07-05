@@ -1,0 +1,44 @@
+.tareas {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    background-color: var(--terciario);
+    align-items: center;
+    border-radius: 5px;
+}
+
+.tareas:nth-child(2n+1) {
+    background-color: hsl(224, 18%, 39%);
+}
+
+.tarea__texto {
+    break-inside: auto;
+    flex-grow: 1;
+    cursor: pointer; 
+    width: 80%;   
+}
+
+.completada {
+    background-color: hsl(224, 5%, 52%);
+    text-decoration: line-through;
+}
+
+.completada:nth-child(2n+1) {
+    background-color: hsl(224, 5%, 45%);
+    text-decoration: line-through;
+}
+
+.tarea__boton {
+    margin-right: 20px;
+    font-size: 2em;
+    cursor: pointer;
+    width: 35px;
+}
+
+h1, .h1-size {
+    font-size: 1.5em;
+}
+
+.color-principal {
+    color: var(--cuarternario);
+}

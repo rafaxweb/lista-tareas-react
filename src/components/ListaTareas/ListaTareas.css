@@ -1,0 +1,46 @@
+.lista-tareas {
+    width: 500px;
+    background-color: var(--secundario);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.todas-tareas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lista-tareas__todas {
+    display: block;
+    margin: 0px;
+    min-height: 500px;
+}
+
+@media screen and (max-width: 520px) {
+    
+    .lista-tareas {
+        width: 100%;
+        height: 100%;
+    }
+
+    .lista-tareas__todas {
+        min-height: 100%;
+    }
+
+    EliminarTareas {
+        order: 2;
+    }
+
+    .lista-tareas__todas {
+        order: 3;
+    }
+
+    body, html {
+        background-color: var(--secundario);
+    }
+}

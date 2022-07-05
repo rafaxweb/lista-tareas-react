@@ -1,0 +1,30 @@
+.agregar-tarea {
+    position: relative;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.caja-texto {
+    height: 40px;
+    max-width: 80%;
+}
+
+.boton-agregar {
+    background-color: #F7A072;
+    border: none;
+    color: var(--quinto);
+    height: 40px;
+    width: 25%;
+    min-width: 60px;
+    cursor: pointer;
+}
+
+.verde {
+    background-color: #BCD979;
+}
+
+@media screen and (max-width: 300px) {
+    .caja-texto {
+        width: 60%;
+    }
+}

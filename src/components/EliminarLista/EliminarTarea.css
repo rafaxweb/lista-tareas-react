@@ -1,0 +1,11 @@
+.boton-eliminar {
+    background-color: #F7A072;
+    width: 70%;
+    margin: 20px auto;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--quinto);
+    font-size: 1.1em;
+}

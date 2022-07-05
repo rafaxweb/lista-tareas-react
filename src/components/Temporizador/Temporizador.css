@@ -1,0 +1,118 @@
+.cronometro {
+    /*margin: 15px 15%;*/
+    color: var(--cuaternario);
+    font-size: 2em;
+    border: transparent solid;
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--terciario);
+}
+
+.texto-temporizador {
+    margin: 15px;
+    font-weight: 700;
+}
+
+.cronometro__tiempo {
+    font-size: 1.5em;
+    margin: 10px 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.bloque {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grande {
+    width: 150px;
+    margin: 0px 0px;
+}
+
+.corta {
+    width: 150px;
+}
+
+.verde {
+    background-color: #BCD979;
+}
+
+@media screen and (max-width: 450px) { 
+
+    .cronometro {
+        font-size: 1.75em;
+        margin: 0px;
+        border-radius: 0px;
+     }
+
+    .texto-temporizador {
+        margin: 15px 0px;
+        font-weight: 700;
+    }
+
+    .grande {
+        width: 100%;
+    }
+
+    .medio {
+        width: 25%;
+    }
+
+    .corta {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+     .flex, .bloque {
+        display: block;
+    }
+
+    .grande {
+        width: 100%;
+    }
+
+    .medio {
+        width: 25%;
+    }
+
+     .corta {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    
+    .texto-temporizador {
+        margin: 15px 0px 0px 0px;
+        font-weight: 700;
+        font-size: 0.75em;
+    }
+
+    .cronometro {
+        font-size: 1.8em;
+     }
+
+     .grande {
+        width: 80%;
+        height: 25px;
+        margin: 2px;
+     }
+
+     .medio {
+        width: 80%;
+        height: 25px;
+        margin: 2px;
+     }
+
+     .corta {
+        width: 100%;
+        height: 25px;
+        margin: 2px;
+    }
+}
